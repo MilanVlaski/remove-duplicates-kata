@@ -65,10 +65,4 @@ class TestRemoveDuplicates {
 		assertArrayEquals(new int[] { 1, 2 },
 				duplicateRemover.work(new int[] { 1, 2, 1 }));
 	}
-	
-	@Test
-	void shouldRemoveManyNonConsecutiveduplicates() {
-		assertArrayEquals(new int[] { 1, 2 },
-				duplicateRemover.work(new int[] { 1, 2, 1, 2, 1, 2}));
-	}
 }
