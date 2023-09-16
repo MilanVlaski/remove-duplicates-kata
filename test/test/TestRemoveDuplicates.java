@@ -60,19 +60,15 @@ class TestRemoveDuplicates {
 				duplicateRemover.work(new int[] { 1, 1, 2, 2 }));
 	}
 	
-//	@Test
-//	void shouldRemoveNonConsecutiveduplicates() {
-//		assertArrayEquals(new int[] { 1, 2 },
-//				duplicateRemover.work(new int[] { 1, 2, 1 }));
-//	}
+	@Test
+	void shouldRemoveNonConsecutiveduplicates() {
+		assertArrayEquals(new int[] { 1, 2 },
+				duplicateRemover.work(new int[] { 1, 2, 1 }));
+	}
 	
-//	@Test PRIVATE METHOD
-//	void should() {
-//		assertTrue(duplicateRemover.hasDuplicates(1, new int[] { 1, 2, 1 }));
-//	}
-//	
-//	@Test
-//	void shouldNot() {
-//		assertFalse(duplicateRemover.hasDuplicates(2, new int[] { 1, 2, 1 }));
-//	}
+	@Test
+	void shouldRemoveManyNonConsecutiveduplicates() {
+		assertArrayEquals(new int[] { 1, 2 },
+				duplicateRemover.work(new int[] { 1, 2, 1, 2, 1, 2}));
+	}
 }
