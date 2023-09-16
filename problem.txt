@@ -10,4 +10,6 @@ Here are some examples:
 
 Author: Ramya V, KGISL
 
-     
+
+I need an array with a constraint that all elements are unique.
+(order matters too!).
