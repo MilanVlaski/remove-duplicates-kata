@@ -3,8 +3,14 @@ package main;
 public class MainClass {
 
 	public static void main(String[] args) {
+		double startTime;
+		double endTime;
 		
-		System.out.println();
+		startTime = System.currentTimeMillis();
+		DuplicateRemover.remove1(ArrayMaker.array(100000, 100000));
+		endTime = System.currentTimeMillis();
+		
+		System.out.println("Execution time is: " + (endTime - startTime) + "ms");
 	}
 
 	private static void showExecutionTime() {
