@@ -17,11 +17,11 @@ public class UniqueArray {
 	}
 
 	public int[] get() {
-
 		int[] result = new int[map.size()];
-		for (int i = 0; i < map.size(); i++) 
-			result[i] = map.get(i);
 		
+		for (int i = 0; i < map.size(); i++)
+			result[i] = map.get(i);
+
 		return result;
 	}
 }
