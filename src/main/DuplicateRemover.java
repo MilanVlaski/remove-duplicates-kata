@@ -2,13 +2,13 @@ package main;
 
 public class DuplicateRemover {
 
+	private final UniqueArray uniqueArray = new LinkedSetImplementation();
+	
 	public int[] work(int[] input) {
-		HashMapImplementation hashMapImplementation = new HashMapImplementation();
-
 		for (int i = 0; i < input.length; i++)
-			hashMapImplementation.add(input[i]);
+			uniqueArray.add(input[i]);
 
-		return hashMapImplementation.get();
+		return uniqueArray.get();
 	}
 
 }
