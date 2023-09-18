@@ -7,13 +7,9 @@ public class MainClass {
 		double endTime;
 		
 		startTime = System.currentTimeMillis();
-		DuplicateRemover.remove1(ArrayMaker.array(100000, 100000));
+		DuplicateRemover.remove2(ArrayMaker.array(100000, 100000));
 		endTime = System.currentTimeMillis();
 		
 		System.out.println("Execution time is: " + (endTime - startTime) + "ms");
-	}
-
-	private static void showExecutionTime() {
-		
 	}
 }

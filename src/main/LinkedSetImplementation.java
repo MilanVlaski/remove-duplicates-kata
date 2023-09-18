@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class LinkedSetImplementation implements UniqueArray {
-	private final Set<Integer> set = new LinkedHashSet<>();
+	private final LinkedHashSet<Integer> set = new LinkedHashSet<>();
 	
 	@Override
 	public void add(int element) {
