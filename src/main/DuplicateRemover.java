@@ -3,11 +3,11 @@ package main;
 public class DuplicateRemover {
 
 	
-	public static int[] work1(int[] input) {
+	public static int[] remove1(int[] input) {
 		return work(input, new LinkedSetImplementation());
 	}
 	
-	public static int[] work2(int[] input) {		
+	public static int[] remove2(int[] input) {		
 		return work(input, new HashMapImplementation());
 	}
 
