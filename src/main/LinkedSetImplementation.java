@@ -18,7 +18,6 @@ public class LinkedSetImplementation implements UniqueArray {
 	
 	@Override
 	public int[] get() {
-		
 		int[] result = new int[set.size()];
 		int i = 0;
 		for (int element : set) {

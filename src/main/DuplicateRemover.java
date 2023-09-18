@@ -1,7 +1,6 @@
 package main;
 
 public class DuplicateRemover {
-
 	
 	public static int[] remove1(int[] input) {
 		return work(input, new LinkedSetImplementation());
