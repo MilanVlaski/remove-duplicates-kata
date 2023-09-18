@@ -3,12 +3,12 @@ package main;
 public class DuplicateRemover {
 
 	public int[] work(int[] input) {
-		UniqueArray uniqueArray = new UniqueArray();
+		HashMapImplementation hashMapImplementation = new HashMapImplementation();
 
 		for (int i = 0; i < input.length; i++)
-			uniqueArray.add(input[i]);
+			hashMapImplementation.add(input[i]);
 
-		return uniqueArray.get();
+		return hashMapImplementation.get();
 	}
 
 }

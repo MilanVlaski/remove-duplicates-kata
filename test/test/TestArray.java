@@ -8,15 +8,15 @@ import java.util.LinkedHashMap;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.UniqueArray;
+import main.HashMapImplementation;
 
 class TestArray {
 
-	UniqueArray array;
+	HashMapImplementation array;
 	
 	@BeforeEach
 	void setup() {
-		array = new UniqueArray();
+		array = new HashMapImplementation();
 	}
 	
 	@Test

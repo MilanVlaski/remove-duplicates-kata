@@ -3,7 +3,7 @@ package main;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UniqueArray {
+public class HashMapImplementation {
 	private final Map<Integer, Integer> map = new HashMap<>();
 	private int size = 0;
 
