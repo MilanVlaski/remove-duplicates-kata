@@ -9,10 +9,3 @@ Here are some examples:
 [1,1,2,2,3,3] -> [1,2,3]
 
 Author: Ramya V, KGISL
-
-EXTRA FROM ME:
-Make a function that makes a random array of a certain length,
-with values between a certain amount.
-Repetition ratio of 1 = length/valuespan. means that the elements never repeat.
-array of length 10, with values between 1 and 5 
-- means that values are likely to repeat twice, 10/5 = 2

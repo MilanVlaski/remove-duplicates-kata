@@ -11,7 +11,7 @@ public class HashMapImplementation implements UniqueArray {
 	public void add(int element) {
 		if (!map.containsValue(element))
 			map.put(size++, element);
-	}
+	} 
 
 	@Override
 	public int size() {
